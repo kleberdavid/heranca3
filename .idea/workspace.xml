@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="011945ef-22be-4dfb-9571-79a5e1e449ca" name="Changes" comment="" />
+    <list default="true" id="011945ef-22be-4dfb-9571-79a5e1e449ca" name="Changes" comment="Atualização de conta salario.">
+      <change afterPath="$PROJECT_DIR$/src/SistemaFinal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heranca3/ContaCorrente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heranca3/ContaCorrente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heranca3/ContaPoupanca.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heranca3/ContaPoupanca.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heranca3/ContaSalario.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heranca3/ContaSalario.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Heranca3/TestaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Heranca3/TestaConta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ContaSalario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ContaSalario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TestaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestaConta.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +25,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="20CFDOBwnV3GuSbmHwj9md5MPZU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,6 +70,30 @@
       <option name="presentableId" value="Default" />
       <updated>1635540546293</updated>
     </task>
+    <task id="LOCAL-00001" summary="Atualização de conta salario.">
+      <created>1635612766109</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1635612766109</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Atualização de conta salario." />
+    <option name="LAST_COMMIT_MESSAGE" value="Atualização de conta salario." />
   </component>
 </project>

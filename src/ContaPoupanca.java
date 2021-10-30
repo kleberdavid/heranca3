@@ -17,20 +17,19 @@ public class ContaPoupanca extends Conta {
                 ", taxaDeJuros=" + taxaDeJuros +
                 '}';
     }
-
     public double getSaldo() {
         return this.saldo + this.taxaDeJuros * this.saldo;
     }
     public void depositar(double valorDeposito) {
-        SaldoConta = SaldoConta + valorDeposito;
+        this.saldo += valorDeposito;
     }
 
     public void sacar(double valorSaque) {
-        if (valorSaque <= SaldoConta) {
-            double valorDeposito = 0;
-            SaldoConta = SaldoConta - valorDeposito;
-        } else {
+        if (valorSaque > this.getSaldo()) {
             System.out.println("Saldo Insuficiente");
+        } else {
+            this.saldo -= valorSaque;
+
         }
     }
 }

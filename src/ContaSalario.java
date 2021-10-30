@@ -15,24 +15,26 @@ public class ContaSalario extends Conta {
     }
 
     public double getSaldo() {//ok
-        return this.saldo + this.limiteSaque;
+
+        return this.saldo;
     }
 
     public void sacar(double valor) {
-        if (limiteSaque == 0){
+        if (limiteSaque == 0) {
             System.out.println("Saque Indisponível, limite Atingido!");
+        }
+            if(valor > this.getSaldo()){
+                System.out.println("Saldo Insuficiente");
+
         }else{
             System.out.println("Limites Disponiveis para saque: " + this.limiteSaque);
             this.limiteSaque --;
             this.saldo -= valor;
-
         }
-
-
-        }
-        public void depositar(double valordeposito){
-            this.saldo += valordeposito;
-        }
+    }
+    public void depositar(double valordeposito){
+        this.saldo += valordeposito;
+    }
 
 
 

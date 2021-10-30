@@ -18,23 +18,15 @@ public class ContaCorrente extends Conta {
     public double getSaldo() {
         return this.ChequeEspecial + this.saldo;
     }
-    public double getSacar() {
-        return this.saldo - this.SaldoConta;
-    }
-    public double getDepositar() {
-        return this.SaldoConta + this.ChequeEspecial;
-    }
-
     public void depositar(double valorDeposito) {
-        SaldoConta = SaldoConta + valorDeposito;
+        this.saldo += valorDeposito;
     }
 
     public void sacar(double valorSaque) {
-        if (valorSaque <= SaldoConta) {
-            double valorDeposito = 0;
-            SaldoConta = SaldoConta - valorDeposito;
-        } else {
+        if (valorSaque > this.getSaldo()) {
             System.out.println("Saldo Insuficiente");
+        } else {
+             this.saldo -= valorSaque;
         }
 
     }
